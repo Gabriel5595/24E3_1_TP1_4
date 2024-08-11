@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container div {
+  background-color: red;
+  border: 1px solid black;
+  width: 50px;
+}
+
+.item_1 {
+  flex-shrink: 1;
+}
+
+.item_2 {
+  flex-shrink: 4;
+}
+
+.item_3 {
+  flex-shrink: 8;
+}
